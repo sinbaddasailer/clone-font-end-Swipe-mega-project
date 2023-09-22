@@ -828,6 +828,13 @@ p {
         width: 100%;
         height: auto;
     }
+
+    .integration-section .col-left {
+        width: 60%;
+    }
+    .integration-section .col-right {
+        width: 40%;
+    }
 }
 
 /* TABLET SIZE */
@@ -855,6 +862,16 @@ p {
         width: 100%;
     }
     
+    /* INTEGRATION SECTION */
+    .integration-section .card-container {
+        flex-direction: column;
+    }
+    .integration-section .card-container .card{
+        width: 100%;
+    }
+
+
+
 }
 
 /* MOBILE SIZE */
@@ -880,4 +897,17 @@ p {
         width: 100%;
     }
 
+
+    /* INTEGRATION SECTION */
+    .integration-section .col-right {
+        display: none;
+    }
+
+}
+
+html,
+ body {
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
 }
