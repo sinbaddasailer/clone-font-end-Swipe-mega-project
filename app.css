@@ -849,12 +849,35 @@ p {
     --h6-size: 22px; */
 
     }
+
+    /* UNIFIED PLATFORM */
+    .unified-platform-section h2{
+        width: 100%;
+    }
     
 }
 
 /* MOBILE SIZE */
 @media only screen and (max-width: 550px) {
+   
+    .two-column {
+        flex-direction: column;
+    }
+    .two-column .col-left {
+        width: 100%;
+    }
+    .two-column .col-right {
+        width: 100%;
+        padding: 0;
+    }
+
     .partners-grid {
         grid-template-columns: 1fr 1fr;
     }
+
+    /* UNIFIED PLATFORM */
+    .unified-platform-section h2{
+        width: 100%;
+    }
+
 }
